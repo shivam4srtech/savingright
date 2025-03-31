@@ -1,0 +1,287 @@
+.container{
+    max-width: 1100px;
+}
+.categorySection{
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: #f5f5f5;
+}
+.category-box{
+    margin-bottom: 1.2rem;
+}
+.category-item{
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: box-shadow .3s ease;
+}
+.category-item:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.cat-img img{
+    max-width:45%;
+    display: block;
+    margin: auto;
+    aspect-ratio: 2/3;
+    object-fit: contain;
+}
+.category-title {
+    text-align: center;
+    margin-bottom: .6rem;
+    padding: .2rem .2rem;
+    min-height: 3rem;
+}
+.category-title a{
+    color: #000;
+    font-weight: 600;
+    font-size: .85rem;
+    line-height: 1.4;
+}
+.category-title a span{
+   display: block;
+   color: var(--primary-color);;
+   font-weight: 600;
+   letter-spacing: .5px;
+   text-align: center;
+   font-size: .7rem;
+}
+@media(max-width:500px){
+    .category-title a{
+        font-size: .8rem;
+    }
+}
+/* subcat */
+.top-bar-store-bg {
+    margin-top: 5px;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+}
+.store-bg-1 {
+    padding: 20px;
+    background-image: linear-gradient(to right, #18702c, #2ec4b58b);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.store-bg-1 p{
+   line-height: 1.4;
+}
+.cat-image-box {
+    width: 125px;
+    height: 125px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    margin: 5px auto;
+    border: 3px solid var(--primary-color);;
+    box-shadow: 0px 0px 5px 0px rgb(0 81 250 / 20%);
+    border-radius: 50%;
+}
+.top-bar-store-bg table{
+    width: 100%;
+}
+.top-bar-store-bg table tr th, .top-bar-store-bg table tr td{
+   padding: .1rem 0;
+   font-size: .95rem;
+}
+.similarCat ul li {
+    color: #fff;
+    margin: .2rem 0;
+}
+.similarCat ul li a{
+    color: #fff;
+   font-size: .9rem;
+}
+.similarCat ul li a:hover{
+    text-decoration: underline;
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+    .cat-image-box {
+        width: 110px;
+        height: 110px;
+        padding-top: 18px;
+    }
+}
+.cat-image {
+    width: 60%;
+    height: auto;
+}
+.store-bg-1 h1{
+    font-weight: 600;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 23px;
+    margin-bottom: .5rem !important;
+}
+
+.divider-line {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #fff;
+}
+
+@media(max-width: 600px){
+    .cat-image-box {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .store-bg-1 {
+        padding: 10px;
+    }       
+}
+.subCatBox{
+    margin-top: 2rem;
+}
+.stars i{
+    color: #ffbd00;
+    display: inline-block;
+}
+.stars span{
+    display: block;
+    margin-top: .5rem;
+    font-size: .8rem;
+}
+.subCatBox .storeItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #eee;
+    padding: 15px 10px;
+    border: 1px solid #eee;
+    min-height: 100%;
+}
+.subCatBox .storeInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.subCatBox .dealBtnBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.storeData .discountValue {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+}
+.storeData .storeImage {
+    border: 1px solid #eee;
+    max-height: fit-content;
+    max-width: 6rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.storeData .storeImage img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 4rem;
+}
+.storeItem .storeData .storeName {
+    font-size: 1rem;
+    display: block;
+    line-height: 1.4;
+    color: #2e2e2e;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    margin-bottom: .5rem;
+}
+.storeItem .storeData .activeDeals {
+    display: block;
+    font-weight: 500;
+    color: #666;
+    font-size: .95rem;
+    letter-spacing: .5px;
+}
+.storeItem .dealBtnBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.storeItem .flexverify {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+.storeItem .storeUrl {
+    font-size: .88rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: .2rem;
+    color: #999;
+    letter-spacing: .5px;
+    line-height: 1;
+    color: #2e2e2e;
+    padding-bottom: .1rem;
+    border-bottom: 1px solid #fff;
+    display: block;
+}
+.storeItem .verifiedCoupon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.storeItem .grabDeal {
+    -spacing: .5px;
+    font-size: .95rem;
+}
+.storeItem .grabDeal a {
+    display: flex;
+    font-weight: 600;
+    padding: .4rem 1rem;
+    background-color: var(--primary-color);;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    align-items: center;
+}
+.storeItem .verifiedCoupon span {
+    font-size: .85rem;
+    color: #999;
+    padding-left: .3rem;
+}
+.pagination{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.pagination ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pagination ul li a{ 
+    padding: .3rem 1rem;
+    border: 1px solid var(--primary-color);;
+    display: inline-block;
+    margin: 0 .5rem;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #2e2e2e;
+    text-decoration: none;
+    cursor: pointer;
+}
+.pagination ul li a.active{
+    background-color: var(--primary-color);;
+    color: #fff;
+}
+@media(max-width:600px){
+    .categorySection {
+        padding: 1rem 0;
+    }
+}
