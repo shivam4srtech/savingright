@@ -214,53 +214,55 @@ export default function StorePage({ store }) {
                           <div className="col-md-6">
                             <div className="founder">
                               <div className="img">
-                                <img src="/images/founder-2.webp" height="60" width="60" alt="founder" />
+                                <img src="/images/co-founder.webp" height="60" width="60" alt="founder" />
                               </div>
                               <div className="name">
-                                  <p>Shivam Dubey CA <a href="https://www.linkedin.com/in/ca-shivam-dubey-7a8a65261/?originalSubdomain=in" target="_blank" title="Connect on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24" fill="#0077B5"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></p>
-                                  <span>Founder &amp; CEO charteredone</span>
+                                  <p>Rudresh <a href="https://www.linkedin.com/in/rudreh-dubey-86426b1a2/" target="_blank" title="Connect on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24" fill="#0077B5"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></p>
+                                  <span>Founder &amp; CEO savesright.com</span>
                               </div>
                             </div>
                             <div className="founderNote">
                               <p>
-                                Over 10,000 businesses have trusted us to handle their registration and compliance needs, ensuring they operate smoothly and in accordance with Indian laws and regulations. For over six years, we’ve been committed to making the process of starting and managing a business straightforward and transparent. Your trust is our top priority.
+                              Rudresh Dubey is an experienced affiliate marketer having more than ten years experience in digital marketing, specializing in coupons industry. As the founder of Savesright.com, he has built a reliable platform that provides fully tested and verified coupon codes. His journey in affiliate marketing began a decade ago with the goal of helping customers save money while shopping online. <a href="/">savesright.com</a> has transformed that vision into a thriving business that helps shoppers worldwide.
                               </p>
                               <p>
-                                Our platform is built and maintained by a team of Chartered Accountants and compliance experts, combining the latest technology with our extensive knowledge of Indian business regulations. Every day, we help businesses register, file taxes, and maintain compliance with local and national laws.
+                              Rudresh’s approach to affiliate marketing sets him apart in the competitive coupon market. His expertise in understanding consumer needs helps keep the platform user-friendly and relevant. We have a team of coupon experts who select the best discount codes in different product categories from fashion and electronics to travel and software. By offering only the genuine and working coupons, <a href="/">savesright.com</a> has become a go-to destination for online shoppers. 
                               </p>
-                              <p>
-                                We understand the frustration of dealing with legal paperwork and complex regulatory requirements, and we’re dedicated to providing accurate and reliable services. We ensure your business stays compliant with the latest laws, so you can focus on growing your business. We are fully transparent about our services and fees, making sure you know exactly how we help and what you’re paying for.
-                              </p>
+                             
                             </div>
                           </div>
                           <div className="col-md-6">
                         <div className="ourExpert">
-                          <h3>Meet CharteredOne Experts</h3>   
+                          <h3>Meet Coupon  Experts</h3>   
                           <div className="expertPara">
-                            <p>
-                              We put significant effort into keeping our platform updated with the latest regulations. Our team regularly reviews and verifies compliance updates, and we rely on feedback from clients like you to continuously improve our services. 
-                            </p>
-                            <p>
-                              If you notice anything that isn’t right, you can report the issue to us, and we’ll address it promptly.
-                            </p>
+                          <p>
+                          With an efficient coupon team of 6 people, Savesright put the right effort to share updated and verified coupon codes. Our team reviews and coupons regularly. We have put a comment section on each coupon page. If a coupon doesn't work, the team makes sure to find the right coupon and also try to improve the services. 
+
+                          </p>
+                          <p>
+                          If you notice anything that isn’t right, you can report the issue to us, and we’ll address it promptly.
+                          </p>
                           
                           </div> 
                           <div className="listExpert">
                               <ul>
                                   <li>
-                                      <small> <img src="/images/co-founder.webp" alt="expert" height="30" width="30" /> Rudersh Dubey</small> <span className="exp">6 Years Experience</span>
+                                      <small> <img src="/images/dinesh-v.webp" alt="expert" height="30" width="30" /> Dinesh</small> <span className="exp">8 Years Experience</span>
                                   </li>
                                   <li>
-                                    <small> <img src="/images/lawyer.webp" alt="expert" height="30" width="30" />Pankaj Upadhyay</small> <span className="exp">15 Years Experience</span>
+                                    <small> <img src="/images/mashma-m.webp" alt="expert" height="30" width="30" />Mashma</small> <span className="exp">6 Years Experience</span>
                                   </li>
                                   <li>
-                                    <small> <img src="/images/lawyer-1.webp" alt="expert" height="30" width="30" />Prince Mishra</small> <span className="exp">8 Years Experience</span>
+                                    <small> <img src="/images/tanay-s.webp" alt="expert" height="30" width="30" />Tanay</small> <span className="exp">6 Years Experience</span>
                                   </li>
                                   <li>
-                                    <small> <img src="/images/ca-amir.webp" alt="expert" height="30" width="30" /> Amir Ihsan</small> <span className="exp">3 Years Experience</span>
+                                    <small> <img src="/images/sikha.webp" alt="expert" height="30" width="30" /> Sikha</small> <span className="exp">5 Years Experience</span>
                                   </li>
                                   <li>
-                                    <small> <img src="/images/hr.webp" alt="expert" height="30" width="30" /> Manish Tripathi</small> <span className="exp">5 Years Experience</span>
+                                    <small> <img src="/images/yunush.webp" alt="expert" height="30" width="30" /> Yusuf</small> <span className="exp">4 Years Experience</span>
+                                  </li>
+                                  <li>
+                                    <small> <img src="/images/yash-c.webp" alt="expert" height="30" width="30" /> Yash</small> <span className="exp">4 Years Experience</span>
                                   </li>
                               </ul>
                           </div>                
