@@ -116,8 +116,9 @@ export default function StorePage({ store }) {
               </div>
               <div className='testHistory'>
                   <h2 className='sidebarHeading'>{store.data.Title} Coupon Code Test History</h2>
+                  <p>Check verified proof of manual testing for {store.data.Title} </p>
                   <div className="row">
-                    <div className="col-md-6 mb-3 p-1 gap-5">
+                    <div className="col-md-6 mb-1 p-1">
                         <div className='historyItem'>
                             <div className="historyHeader">
                                 <span>20% OFF</span>
@@ -129,7 +130,7 @@ export default function StorePage({ store }) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 mb-3 p-1">
+                    <div className="col-md-6 mb-1 p-1">
                         <div className='historyItem'>
                             <div className="historyHeader">
                                 <span>20% OFF</span>
@@ -141,7 +142,7 @@ export default function StorePage({ store }) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 mb-3 p-1">
+                    <div className="col-md-6 mb-1 p-1">
                         <div className='historyItem'>
                             <div className="historyHeader">
                                 <span>20% OFF</span>
